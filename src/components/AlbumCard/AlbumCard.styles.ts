@@ -11,6 +11,7 @@ export const Card = styled.a`
   text-decoration: none;
   color: inherit;
   height: 100%;
+  position: relative;
 
   &:hover {
     transform: translateY(-8px);
@@ -52,7 +53,7 @@ export const CardContent = styled.div`
 `;
 
 export const AlbumName = styled.h3`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0 0 8px 0;
   line-height: 1.3;
