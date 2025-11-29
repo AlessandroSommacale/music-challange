@@ -100,7 +100,7 @@
   @media (prefers-color-scheme: dark) {
     color: #999;
   }
-`;var d=e.i(8489);let p=(0,d.default)(()=>e.A(483),{loadableGenerated:{modules:[8497]},ssr:!1}),h=({album:e})=>{let r=e?.["im:image"]?.[e?.["im:image"].length-1].label;return(0,t.jsxs)(n,{href:e.link?.attributes.href,target:"_blank",rel:"noopener noreferrer",children:[e.id?.attributes?.["im:id"]&&(0,t.jsx)(p,{albumId:e.id?.attributes?.["im:id"]}),(0,t.jsx)(o,{children:(0,t.jsx)(i,{src:r,alt:e.title?.label,loading:"lazy"})}),(0,t.jsxs)(a,{children:[(0,t.jsx)(u,{children:e.title?.label}),(0,t.jsx)(l,{children:e["im:artist"]?.label}),(0,t.jsxs)(s,{children:[(0,t.jsx)(c,{children:e["im:price"]?.label}),(0,t.jsx)(f,{children:e.category?.attributes.label})]})]})]})};var m=e.i(8574),y=e.i(6447);let b=()=>{let{data:e,isLoading:r,error:n}=(0,y.useGetTopAlbumsQuery)();return(0,t.jsxs)(t.Fragment,{children:[r&&(0,t.jsx)(m.LoadingContainer,{children:(0,t.jsx)(m.Spinner,{})}),n&&(0,t.jsx)(m.ErrorMessage,{children:"Error: Failed to load albums"}),!r&&!n&&(0,t.jsx)(m.Grid,{children:(e?.feed?.entry||[]).map(e=>(0,t.jsx)(h,{album:e},e.id?.label))})]})},g=r.default.header`
+`;var d=e.i(8489);let p=(0,d.default)(()=>e.A(483),{loadableGenerated:{modules:[8497]},ssr:!0}),h=({album:e})=>{let r=e?.["im:image"]?.[e?.["im:image"].length-1].label;return(0,t.jsxs)(n,{href:e.link?.attributes.href,target:"_blank",rel:"noopener noreferrer",children:[e.id?.attributes?.["im:id"]&&(0,t.jsx)(p,{albumId:e.id?.attributes?.["im:id"]}),(0,t.jsx)(o,{children:(0,t.jsx)(i,{src:r,alt:e.title?.label,loading:"lazy"})}),(0,t.jsxs)(a,{children:[(0,t.jsx)(u,{children:e.title?.label}),(0,t.jsx)(l,{children:e["im:artist"]?.label}),(0,t.jsxs)(s,{children:[(0,t.jsx)(c,{children:e["im:price"]?.label}),(0,t.jsx)(f,{children:e.category?.attributes.label})]})]})]})};var m=e.i(8574),y=e.i(6447);let b=()=>{let{data:e,isLoading:r,error:n}=(0,y.useGetTopAlbumsQuery)();return(0,t.jsxs)(t.Fragment,{children:[r&&(0,t.jsx)(m.LoadingContainer,{children:(0,t.jsx)(m.Spinner,{})}),n&&(0,t.jsx)(m.ErrorMessage,{children:"Error: Failed to load albums"}),!r&&!n&&(0,t.jsx)(m.Grid,{children:(e?.feed?.entry||[]).map(e=>(0,t.jsx)(h,{album:e},e.id?.label))})]})},g=r.default.header`
   background: transparent;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
@@ -148,7 +148,7 @@
   @media (prefers-color-scheme: dark) {
     color: #aaa;
   }
-`,w=(0,d.default)(()=>e.A(9360),{loadableGenerated:{modules:[9695]},ssr:!1}),S=()=>(0,t.jsx)(g,{children:(0,t.jsxs)(v,{children:[(0,t.jsxs)("div",{children:[(0,t.jsx)(x,{children:"Top 100 Albums"}),(0,t.jsx)(_,{children:"Discover the most popular albums on iTunes"})]}),(0,t.jsx)(w,{})]})}),j=r.default.div`
+`,w=(0,d.default)(()=>e.A(9360),{loadableGenerated:{modules:[9695]},ssr:!0}),S=()=>(0,t.jsx)(g,{children:(0,t.jsxs)(v,{children:[(0,t.jsxs)("div",{children:[(0,t.jsx)(x,{children:"Top 100 Albums"}),(0,t.jsx)(_,{children:"Discover the most popular albums on iTunes"})]}),(0,t.jsx)(w,{})]})}),j=r.default.div`
   min-height: 100vh;
   background: linear-gradient(to bottom, #f8f9fa, #ffffff);
 
